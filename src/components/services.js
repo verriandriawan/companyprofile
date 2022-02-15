@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div className="row mt-5 py-5">
             
-        <div className="col-lg-12" style={{position: "relative"}}>
+        <div className="px-5 col-lg-12" style={{position: "relative"}}>
             <h3 className="fs-3 fw-bolder" style={{position: "relative", zIndex: 2}}>Layanan Khusus</h3>
             <div className="row py-3" style={{position:"relative", zIndex: 1}}>
                 

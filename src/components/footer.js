@@ -3,13 +3,15 @@ import React from 'react'
 const Footer = () => {
 
     return (
+        <>
         <footer className="row">
-            <div className="col-sm-12 col-lg-3 p-4 d-flex justify-content-center align-items-center">
-                <a className="text-white decoration-none d-flex justify-content-start flex-column">
+            <div className="col-sm-12 col-lg-4 py-4 d-flex justify-content-center align-items-center">
+                <div className="py-3 py-lg-5 px-5 text-white decoration-none d-flex justify-content-start flex-column">
                     <span className="fs-4 fw-bolder">Permata Azzuri Sehat</span>
-                    <span style={{fontSize: "0.8rem", marginTop: "-0.1rem"}}> Kami Perusahaan start-up cloud healthcare. Kami membantu klient kami melakukan peningkatan kinerja yang langgeng dan mewujudkan tujuan terpenting mereka melalui aplikasi dan solusi bisnis terbaik</span>
-                </a>
+                    <span> Kami Perusahaan start-up cloud healthcare. Kami membantu klient kami melakukan peningkatan kinerja yang langgeng dan mewujudkan tujuan terpenting mereka melalui aplikasi dan solusi bisnis terbaik</span>
+                </div>
             </div>
+
             <div className="col-sm-6 col-lg-3">
                 <div className="py-3 py-lg-5 px-5">
                     <p className="text-white fw-bolder text-uppercase">Site Map</p>
@@ -22,6 +24,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
+
             <div className="col-sm-6 col-lg-3">
                 <div className="py-3 py-lg-5 px-5 contact">
                     <p className="text-white fw-bolder text-uppercase">Hubungi kami</p>
@@ -31,12 +34,18 @@ const Footer = () => {
                     <p className="text-white m-0"><strong>Email: </strong> pt.pas@permataazzurisehat.com</p>
                 </div>
             </div>
-            <div className="col-lg-3">
+
+            <div className="col-lg-2">
             </div>
             
-            <p className="text-xs text-white text-md-center m-0">Code by <a href="http://www.permataazzurisehat.com/" className="fw-bolder text-white decoration-none">www.permataazzurisehat.com</a></p>
-            <a href="https://www.freepik.com/vectors/people" className="mx-5 mx-md-0 mb-5 text-white decoration-none text-xs text-md-center">People vector created by pikisuperstar and pch.vector from - www.permataazurisehat.com</a>
         </footer>
+        <div className="row bg-dark-cyan" style={{background:"#024658"}}>
+            <div className="col-lg-12 my-3 d-flex flex-column justify-content-center">
+                <p className="text-xs text-white m-0 text-center">Code by <a href="https://www.permataazzurisehat.com" className="fw-bolder text-white decoration-none">www.permataazzurisehat.com</a></p>
+                <a href="https://www.freepik.com/vectors/people" className="mx-5 mx-md-0 text-white decoration-none text-xs text-center">People vector created by pikisuperstar and pch.vector from - www.freepik.com</a>
+            </div>
+        </div>
+        </>
     )
 }
 

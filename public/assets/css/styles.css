@@ -87,10 +87,14 @@ img { width: 100%; }
     text-transform: uppercase;
 }
 
+.bg-dark-cyan {
+    background: #024658;
+}
 
 
 
 footer {
+    font-size: 0.8rem;
     min-height: 200px;
     background: #0e7490;
 }
